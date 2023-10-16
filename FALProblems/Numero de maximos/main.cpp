@@ -5,27 +5,31 @@
 #include <iostream>
 #include <iomanip>
 #include <fstream>
-
+#include <vector>
+#include <climits>
 using namespace std;
-// función que resuelve el problema
-int resolver(int datos) {
-    return 2 * datos;
-}
+
 
 // Resuelve un caso de prueba, leyendo de la entrada la
 // configuración, y escribiendo la respuesta
-bool resuelveCaso() {
+void resuelveCaso() {
     // leer los datos de la entrada
     int n;
     cin >> n;
-    if (n == 0)
-        return false;
-
-    int sol = resolver(n);
+    int max = INT_MIN, repite = 0;
+    while (n != 0) {
+        if (n > max) {
+            max = n;
+            repite = 1;
+        }
+        else if (n == max) {
+            repite++;
+        }
+        cin >> n;
+    }
 
     // escribir sol
-    cout << sol << "\n";
-    return true;
+    cout << max << " " << repite << "\n";
 
 }
 
@@ -38,8 +42,10 @@ int main() {
 #endif 
 
 
-    while (resuelveCaso())
-        ;
+    int numCasos;
+    std::cin >> numCasos;
+    for (int i = 0; i < numCasos; ++i)
+        resuelveCaso();
 
 
     // Para restablecer entrada. Comentar para acepta el reto

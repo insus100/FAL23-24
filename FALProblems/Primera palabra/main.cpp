@@ -5,28 +5,44 @@
 #include <iostream>
 #include <iomanip>
 #include <fstream>
+#include <vector>
+#include <string>
 
 using namespace std;
 // función que resuelve el problema
-int resolver(int datos) {
-    return 2 * datos;
+bool operator>(string const& a, string const& b) {
+    int i = 0;
+    bool mayor = false;
+    while (!mayor && i < a.size() && i < b.size()) {
+        if (a[i] < b[i]) mayor = true;
+        else if (a[i] == b[i]) i++;
+        else break;
+    }
+
+    return mayor;
+}
+string resolver(vector<string> const&v) {
+    string mayor = v[0];
+    for (int i = 1; i < v.size(); i++) {
+        if (v[i] > mayor) mayor = v[i];
+    }
+    return mayor;
 }
 
 // Resuelve un caso de prueba, leyendo de la entrada la
 // configuración, y escribiendo la respuesta
-bool resuelveCaso() {
+void resuelveCaso() {
     // leer los datos de la entrada
     int n;
     cin >> n;
-    if (n == 0)
-        return false;
+    vector<string> v(n);
 
-    int sol = resolver(n);
+    for (string& s : v)
+        cin >> s;
 
+    string sol = resolver(v);
     // escribir sol
     cout << sol << "\n";
-    return true;
-
 }
 
 int main() {
@@ -38,8 +54,10 @@ int main() {
 #endif 
 
 
-    while (resuelveCaso())
-        ;
+    int numCasos;
+    std::cin >> numCasos;
+    for (int i = 0; i < numCasos; ++i)
+        resuelveCaso();
 
 
     // Para restablecer entrada. Comentar para acepta el reto

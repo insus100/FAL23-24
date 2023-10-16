@@ -5,28 +5,40 @@
 #include <iostream>
 #include <iomanip>
 #include <fstream>
+#include <vector>
+#include <climits>
 
 using namespace std;
 // función que resuelve el problema
-int resolver(int datos) {
-    return 2 * datos;
+bool resolver(vector<int> const& v, int const&p) {
+    if (p == v.size() - 1)
+        return true;
+    int max_izq = INT_MIN, min_der = INT_MAX;
+    for (int i = 0; i <= p; ++i) {
+        if (v[i] > max_izq)
+            max_izq = v[i];
+    }
+    for (int i = p + 1; i < v.size(); ++i) {
+        if (v[i] < min_der)
+            min_der = v[i];
+    }
+    return max_izq < min_der;
 }
 
 // Resuelve un caso de prueba, leyendo de la entrada la
 // configuración, y escribiendo la respuesta
-bool resuelveCaso() {
+void resuelveCaso() {
     // leer los datos de la entrada
-    int n;
-    cin >> n;
-    if (n == 0)
-        return false;
+    int n, p;
+    cin >> n >> p;
+    vector<int> v(n);
 
-    int sol = resolver(n);
+    for (int& val : v)
+        cin >> val;
 
+    bool sol = resolver(v, p);
     // escribir sol
-    cout << sol << "\n";
-    return true;
-
+    sol ? cout << "SI\n" : cout << "NO\n";
 }
 
 int main() {
@@ -38,8 +50,10 @@ int main() {
 #endif 
 
 
-    while (resuelveCaso())
-        ;
+    int numCasos;
+    std::cin >> numCasos;
+    for (int i = 0; i < numCasos; ++i)
+        resuelveCaso();
 
 
     // Para restablecer entrada. Comentar para acepta el reto
