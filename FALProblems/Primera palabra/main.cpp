@@ -14,11 +14,13 @@ bool operator>(string const& a, string const& b) {
     int i = 0;
     bool mayor = false;
     while (!mayor && i < a.size() && i < b.size()) {
-        if (a[i] < b[i]) mayor = true;
-        else if (a[i] == b[i]) i++;
+        if (tolower(a[i]) < tolower(b[i])) mayor = true;
+        else if (tolower(a[i]) == tolower(b[i])) i++;
         else break;
     }
-
+    if (!mayor && (i == a.size() || i == b.size())) {
+        return a.size() < b.size();
+    }
     return mayor;
 }
 string resolver(vector<string> const&v) {
