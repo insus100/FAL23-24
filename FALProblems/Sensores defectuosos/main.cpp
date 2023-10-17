@@ -12,23 +12,14 @@ using namespace std;
 using lli = long long int;
 // función que resuelve el problema
 void resolver(vector<lli> &v, lli const &p) {
-    int i = 0, pos = -1;
-    while (i < v.size()) {
-        if (v[i] == p) {
-            if (pos == -1) pos = i;
-            i++;
-        }
-        else {
-            if (pos != -1) {
-                v[pos] = v[i];
-                v[i] = p;
-                i = pos + 1;
-                pos = -1;
-            }
-            else i++;
+    int pos = 0;
+    for (int i = 0; i < v.size(); i++) {
+        if (v[i] != p) {
+            v[pos] = v[i];
+            pos++;
         }
     }
-    if(pos != -1) v.erase(v.begin() + pos, v.end());
+    v.resize(pos);
 }
 
 // Resuelve un caso de prueba, leyendo de la entrada la
