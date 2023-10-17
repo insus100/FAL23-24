@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Parejas de impares y pares"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sensores defectuosos", "Sensores defectuosos\Sensores defectuosos.vcxproj", "{C5C79DE2-02A1-4500-B598-97B00E87AB50}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rescate aereo 1", "Rescate aereo 1\Rescate aereo 1.vcxproj", "{7B137386-A864-4912-81EA-F5B724766583}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{C5C79DE2-02A1-4500-B598-97B00E87AB50}.Release|x64.Build.0 = Release|x64
 		{C5C79DE2-02A1-4500-B598-97B00E87AB50}.Release|x86.ActiveCfg = Release|Win32
 		{C5C79DE2-02A1-4500-B598-97B00E87AB50}.Release|x86.Build.0 = Release|Win32
+		{7B137386-A864-4912-81EA-F5B724766583}.Debug|x64.ActiveCfg = Debug|x64
+		{7B137386-A864-4912-81EA-F5B724766583}.Debug|x64.Build.0 = Debug|x64
+		{7B137386-A864-4912-81EA-F5B724766583}.Debug|x86.ActiveCfg = Debug|Win32
+		{7B137386-A864-4912-81EA-F5B724766583}.Debug|x86.Build.0 = Debug|Win32
+		{7B137386-A864-4912-81EA-F5B724766583}.Release|x64.ActiveCfg = Release|x64
+		{7B137386-A864-4912-81EA-F5B724766583}.Release|x64.Build.0 = Release|x64
+		{7B137386-A864-4912-81EA-F5B724766583}.Release|x86.ActiveCfg = Release|Win32
+		{7B137386-A864-4912-81EA-F5B724766583}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
