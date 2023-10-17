@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EXJUN23-BDG-EJ1", "EXJUN23-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "El casino de René EXJUL23-F-EJ1", "El casino de René EXJUL23-F-EJ1\El casino de René EXJUL23-F-EJ1.vcxproj", "{46475C14-A520-4951-9E93-FECCA4F3524C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContarSegmentosCerosUnos-4 ExEnero19", "ContarSegmentosCerosUnos-4 ExEnero19\ContarSegmentosCerosUnos-4 ExEnero19.vcxproj", "{198419D1-C4F9-4C54-A83A-508489487940}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{46475C14-A520-4951-9E93-FECCA4F3524C}.Release|x64.Build.0 = Release|x64
 		{46475C14-A520-4951-9E93-FECCA4F3524C}.Release|x86.ActiveCfg = Release|Win32
 		{46475C14-A520-4951-9E93-FECCA4F3524C}.Release|x86.Build.0 = Release|Win32
+		{198419D1-C4F9-4C54-A83A-508489487940}.Debug|x64.ActiveCfg = Debug|x64
+		{198419D1-C4F9-4C54-A83A-508489487940}.Debug|x64.Build.0 = Debug|x64
+		{198419D1-C4F9-4C54-A83A-508489487940}.Debug|x86.ActiveCfg = Debug|Win32
+		{198419D1-C4F9-4C54-A83A-508489487940}.Debug|x86.Build.0 = Debug|Win32
+		{198419D1-C4F9-4C54-A83A-508489487940}.Release|x64.ActiveCfg = Release|x64
+		{198419D1-C4F9-4C54-A83A-508489487940}.Release|x64.Build.0 = Release|x64
+		{198419D1-C4F9-4C54-A83A-508489487940}.Release|x86.ActiveCfg = Release|Win32
+		{198419D1-C4F9-4C54-A83A-508489487940}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
