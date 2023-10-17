@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Juego de dados", "Juego de 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Contabilidad", "Contabilidad\Contabilidad.vcxproj", "{5376264B-75C2-4DF7-91DC-9FD509A3D095}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Viajes a Marte", "Viajes a Marte\Viajes a Marte.vcxproj", "{B3913EBA-2C42-47AE-A19C-4F80F99FACED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{5376264B-75C2-4DF7-91DC-9FD509A3D095}.Release|x64.Build.0 = Release|x64
 		{5376264B-75C2-4DF7-91DC-9FD509A3D095}.Release|x86.ActiveCfg = Release|Win32
 		{5376264B-75C2-4DF7-91DC-9FD509A3D095}.Release|x86.Build.0 = Release|Win32
+		{B3913EBA-2C42-47AE-A19C-4F80F99FACED}.Debug|x64.ActiveCfg = Debug|x64
+		{B3913EBA-2C42-47AE-A19C-4F80F99FACED}.Debug|x64.Build.0 = Debug|x64
+		{B3913EBA-2C42-47AE-A19C-4F80F99FACED}.Debug|x86.ActiveCfg = Debug|Win32
+		{B3913EBA-2C42-47AE-A19C-4F80F99FACED}.Debug|x86.Build.0 = Debug|Win32
+		{B3913EBA-2C42-47AE-A19C-4F80F99FACED}.Release|x64.ActiveCfg = Release|x64
+		{B3913EBA-2C42-47AE-A19C-4F80F99FACED}.Release|x64.Build.0 = Release|x64
+		{B3913EBA-2C42-47AE-A19C-4F80F99FACED}.Release|x86.ActiveCfg = Release|Win32
+		{B3913EBA-2C42-47AE-A19C-4F80F99FACED}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
