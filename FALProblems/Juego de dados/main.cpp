@@ -16,12 +16,12 @@ vector<int> resolver(vector<int> const &v, int const& m) {
     vector<int> veces(m, 0);
     int max = INT_MIN;
     for (int i = 0; i < v.size(); i++) {
-        veces[v[i]]++;
-        if (veces[v[i]] > max) max = veces[v[i]];
+        veces[v[i] - 1]++;
+        if (veces[v[i] - 1] > max) max = veces[v[i] - 1];
     }
     vector<int> sol;
     for (int i = 0; i < veces.size(); i++) {
-        if (veces[i] == max) sol.push_back(i);
+        if (veces[i] == max) sol.push_back(i + 1);
     }
     sort(sol.begin(), sol.end(), greater<int>());
     return sol;
