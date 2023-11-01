@@ -35,6 +35,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Viajes a Marte", "Viajes a 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cenando con los amigos", "Cenando con los amigos\Cenando con los amigos.vcxproj", "{CCE32321-945D-49B4-B0B1-78BC33CCD629}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RE Números que suman lo mismo", "RE Números que suman lo mismo\RE Números que suman lo mismo.vcxproj", "{3C1C3B88-34E5-49F4-85C4-2F1D0F69C6B9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RE Transformar un número decimal a binario", "RE Transformar un número decimal a binario\RE Transformar un número decimal a binario.vcxproj", "{5F07A4A2-1802-41EC-99FE-4C5F5B7154F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +175,22 @@ Global
 		{CCE32321-945D-49B4-B0B1-78BC33CCD629}.Release|x64.Build.0 = Release|x64
 		{CCE32321-945D-49B4-B0B1-78BC33CCD629}.Release|x86.ActiveCfg = Release|Win32
 		{CCE32321-945D-49B4-B0B1-78BC33CCD629}.Release|x86.Build.0 = Release|Win32
+		{3C1C3B88-34E5-49F4-85C4-2F1D0F69C6B9}.Debug|x64.ActiveCfg = Debug|x64
+		{3C1C3B88-34E5-49F4-85C4-2F1D0F69C6B9}.Debug|x64.Build.0 = Debug|x64
+		{3C1C3B88-34E5-49F4-85C4-2F1D0F69C6B9}.Debug|x86.ActiveCfg = Debug|Win32
+		{3C1C3B88-34E5-49F4-85C4-2F1D0F69C6B9}.Debug|x86.Build.0 = Debug|Win32
+		{3C1C3B88-34E5-49F4-85C4-2F1D0F69C6B9}.Release|x64.ActiveCfg = Release|x64
+		{3C1C3B88-34E5-49F4-85C4-2F1D0F69C6B9}.Release|x64.Build.0 = Release|x64
+		{3C1C3B88-34E5-49F4-85C4-2F1D0F69C6B9}.Release|x86.ActiveCfg = Release|Win32
+		{3C1C3B88-34E5-49F4-85C4-2F1D0F69C6B9}.Release|x86.Build.0 = Release|Win32
+		{5F07A4A2-1802-41EC-99FE-4C5F5B7154F1}.Debug|x64.ActiveCfg = Debug|x64
+		{5F07A4A2-1802-41EC-99FE-4C5F5B7154F1}.Debug|x64.Build.0 = Debug|x64
+		{5F07A4A2-1802-41EC-99FE-4C5F5B7154F1}.Debug|x86.ActiveCfg = Debug|Win32
+		{5F07A4A2-1802-41EC-99FE-4C5F5B7154F1}.Debug|x86.Build.0 = Debug|Win32
+		{5F07A4A2-1802-41EC-99FE-4C5F5B7154F1}.Release|x64.ActiveCfg = Release|x64
+		{5F07A4A2-1802-41EC-99FE-4C5F5B7154F1}.Release|x64.Build.0 = Release|x64
+		{5F07A4A2-1802-41EC-99FE-4C5F5B7154F1}.Release|x86.ActiveCfg = Release|Win32
+		{5F07A4A2-1802-41EC-99FE-4C5F5B7154F1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
