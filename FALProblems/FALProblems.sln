@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RE Números que suman lo mi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RE Transformar un número decimal a binario", "RE Transformar un número decimal a binario\RE Transformar un número decimal a binario.vcxproj", "{5F07A4A2-1802-41EC-99FE-4C5F5B7154F1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RE ExamenSept2020 NumerosInteresantes", "RE ExamenSept2020 NumerosInteresantes\RE ExamenSept2020 NumerosInteresantes.vcxproj", "{FFA3598E-76E4-4A1F-A759-A7894F4CD7A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{5F07A4A2-1802-41EC-99FE-4C5F5B7154F1}.Release|x64.Build.0 = Release|x64
 		{5F07A4A2-1802-41EC-99FE-4C5F5B7154F1}.Release|x86.ActiveCfg = Release|Win32
 		{5F07A4A2-1802-41EC-99FE-4C5F5B7154F1}.Release|x86.Build.0 = Release|Win32
+		{FFA3598E-76E4-4A1F-A759-A7894F4CD7A1}.Debug|x64.ActiveCfg = Debug|x64
+		{FFA3598E-76E4-4A1F-A759-A7894F4CD7A1}.Debug|x64.Build.0 = Debug|x64
+		{FFA3598E-76E4-4A1F-A759-A7894F4CD7A1}.Debug|x86.ActiveCfg = Debug|Win32
+		{FFA3598E-76E4-4A1F-A759-A7894F4CD7A1}.Debug|x86.Build.0 = Debug|Win32
+		{FFA3598E-76E4-4A1F-A759-A7894F4CD7A1}.Release|x64.ActiveCfg = Release|x64
+		{FFA3598E-76E4-4A1F-A759-A7894F4CD7A1}.Release|x64.Build.0 = Release|x64
+		{FFA3598E-76E4-4A1F-A759-A7894F4CD7A1}.Release|x86.ActiveCfg = Release|Win32
+		{FFA3598E-76E4-4A1F-A759-A7894F4CD7A1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
